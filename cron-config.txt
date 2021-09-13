@@ -1,0 +1,4 @@
+0 0 * * * curl -s https://bit2coin.club/cron/daily/verify >/dev/null 2>&1
+0 * * * * curl -s https://bit2coin.club/cron/lottery/verify >/dev/null 2>&1
+30 9 * * * curl -s https://bit2coin.club/cron/mail/verify >/dev/null 2>&1
+0 0 1 * * curl -s https://bit2coin.club/cron/monthly/extractmonth >/dev/null 2>&1

@@ -1,0 +1,21 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/* Definições */
+$config['useragent']	= 'CodeIgniter';
+$config['mailtype']		= 'html';
+$config['wordwrap']		= TRUE;
+$config['charset']		= 'utf-8';
+$config['crlf']			= "\r\n";
+$config['newline']		= "\r\n";
+$config['validation']	= TRUE;
+// $config['priority']		= 2;
+// $config['mailpath']		= '/usr/sbin/sendmail'; 
+
+$config['protocol']		= 'smtp'; 
+
+/* SMTP Config */
+$config['smtp_host']	= 'mail.investejovem.online';
+$config['smtp_port']	= 25;
+$config['smtp_user']	= 'contato@investejovem.online';
+$config['smtp_pass']	= 'suportejovem12';
+$config['smtp_timeout']	= 7;

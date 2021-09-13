@@ -1,0 +1,37 @@
+***********************Tutorial de instalação do sistema Multinivel / Binário*********************
+1 - Crie o Banco de Dados
+2 - Importe o arquivo Sql para o Banco de Dados
+3 - Faça o upload dos arquivos para a raiz do seu site
+4 - Descompacte os arquivos na raiz do seu site
+5 - Vá até o arquivo dadabase.php na pasta app/config/ e configure seu banco de dados
+6 - Vá até o arquivo config.php na pasta app/config/ e configure a URL do seu site ( se o caminho nao for configurado corretamente podem ocorrer erros de caminho de arquivo )
+7 - Para acessar o painel admin seiga http://seusite.com/admin
+
+
+****************************Tutorial para configuração de Bônus*********************************
+
+1 - Bonus diario:
+Na pasta \app\controllers\cron arquivo daily.php linha 45 configure o percentual diario $valorganho = (($contagem * 3) / 100); [[[[ onde esta 3 significa 3% ao dia ]]]]
+
+2 - Indicação direta:
+Na pasta \app\helpers arquivo help_bonus.php linha 18 configure o valor da indicação direta if($level == 1) $percent = 5; [[[[onde esta 5 significa 5% ]]]]
+
+3 - Indicação indireta:
+Na pasta \app\helpers arquivo help_bonus.php linha 19 a 23
+        elseif($level == 2) $percent = 2;
+	elseif($level == 3) $percent = 2;
+	elseif($level == 4) $percent = 2;
+	elseif($level == 5) $percent = 2;
+	elseif($level == 6) $percent = 2;
+[[[[onde esta 2 significa 2% ]]]] em seus respectivos niveis.
+
+4 - Residual:
+Na pasta \app\controllers\cron arquivo daily.php linha 75 configure o percentual de residual $valorganhopatrocinador = (($contagem * 0.2) / 100); [[[[onde esta 0.2 significa 0.2% ]]]]
+
+5 - Binario:
+Na pasta \app\controllers\cron arquivo daily.php linha 111 configure o percentual de binario $vlrganhobinario = (($point_remove * 15) / 100); [[[[ onde esta 15 significa 15%]]]]
+
+6 - Teto de ganhos
+Na pasta \app\helpers arquivo invoice_paid_helper.php na linha 42 configure o teto de ganhos $calculo = (($invoice->sum / 100) * 225); [[[[onde esta 225 significa teto de 225% ]]]
+
+Para que o sistema rode perfeitamente é necessario certificar-se de que o CRON foi configurado corretamente. 

@@ -1,0 +1,29 @@
+{
+"name": "FELIPE SITES",
+"description": "Sistema para Gerenciar MMN.",
+"type": "project",
+"homepage": "http://felipesites.com",
+"authors": [
+{
+"name": "FELIPE SITES",
+"email": "contato@felipesites.com"
+}
+],
+"license": "MIT",
+"autoload": {
+"psr-4": {
+"App\\Libraries\\": "app/libraries"
+}
+},
+"suggest": {
+"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+},
+"require": {
+"php": ">=5.4",
+"nesbot/carbon": "^1.21",
+"phpmailer/phpmailer": "^5.2",
+},
+"require-dev": {
+"mikey179/vfsStream": "1.1.*"
+}
+}

@@ -1,0 +1,16 @@
+[29-Jan-2020 20:25:11 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected ';' in /home/estasymx/mmnauto.estarcash.tech/app/helpers/tree_helper.php on line 78
+[29-Jan-2020 20:25:11 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected ';' in /home/estasymx/mmnauto.estarcash.tech/app/helpers/tree_helper.php on line 78
+[19-Feb-2020 23:25:25 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected 'bankon' (T_STRING) in /home/estasymx/mmnauto.estarcash.tech/app/views/backoffice/ewallet/view.php on line 41
+[19-Feb-2020 23:26:12 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/estasymx/mmnauto.estarcash.tech/app/views/backoffice/ewallet/view.php on line 14
+[19-Feb-2020 23:26:34 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '?>' in /home/estasymx/mmnauto.estarcash.tech/app/views/backoffice/ewallet/view.php on line 14
+[20-Mar-2020 17:01:51 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '[' in /home/estasymx/mmnauto.estarcash.tech/app/core/MY_Controller.php on line 21
+[12-Apr-2020 17:26:10 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/afdsnkue/public_html/app/views/backoffice/theme/application.php on line 52
+[12-Apr-2020 17:26:37 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/afdsnkue/public_html/app/views/backoffice/theme/application.php on line 52
+[12-Apr-2020 17:26:39 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/afdsnkue/public_html/app/views/backoffice/theme/application.php on line 52
+[12-Apr-2020 17:26:40 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/afdsnkue/public_html/app/views/backoffice/theme/application.php on line 52
+[13-Apr-2020 23:07:07 AMERICA/SAO_PAULO] PHP Fatal error:  Call to undefined method stdClass::save() in /home/afdsnkue/public_html/app/helpers/binary_helper.php on line 64
+[14-Apr-2020 09:24:03 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '<' in /home/afdsnkue/public_html/langs/pt-br.php on line 122
+[14-Apr-2020 17:55:34 AMERICA/SAO_PAULO] PHP Warning:  Unterminated comment starting line 93 in /home/afdsnkue/public_html/langs/pt-br.php on line 93
+[14-Apr-2020 17:57:20 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/afdsnkue/public_html/langs/pt-br.php on line 96
+[09-Sep-2021 15:34:27 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '}' in /home/bulkmsgc/public_html/Loteria/app/views/backoffice/theme/application.php on line 291
+[09-Sep-2021 15:34:51 AMERICA/SAO_PAULO] PHP Parse error:  syntax error, unexpected '}' in /home/bulkmsgc/public_html/Loteria/app/views/backoffice/theme/application.php on line 291
