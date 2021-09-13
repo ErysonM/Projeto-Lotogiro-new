@@ -17,7 +17,7 @@ $lang['menu2'] = "A Empresa";
 $lang['menu3'] = "Bonificações";
 $lang['menu4'] = "Planos";
 $lang['menu5'] = "Contato";
-$lang['menu6'] = "Escritório";
+$lang['menu6'] = "Login";
 
 
 ##SLIDERS
